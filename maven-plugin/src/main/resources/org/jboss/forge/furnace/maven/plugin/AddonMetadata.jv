@@ -1,0 +1,11 @@
+package ${addonPackage};
+
+import javax.annotation.Generated;
+
+@Generated("DO NOT MODIFY THIS FILE, as it is generated automatically by the Furnace Maven Plugin")
+public final class AddonMetadata
+{
+   public static final String NAME = "${addonName}";
+   public static final String VERSION = "${addonVersion}";
+   public static final String ID = NAME + "," + VERSION;
+}
